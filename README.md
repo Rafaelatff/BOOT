@@ -62,8 +62,16 @@ The following message will appear:
 
 ![image](https://user-images.githubusercontent.com/58916022/217076524-72fa155b-98c4-4859-affa-353e0e3e8bb0.png)
 
-BOOT0 pin has to be connected to VCC during board reset to enter in to system memory boot. Do that and press the Reset buttom
+BOOT0 pin has to be connected to VCC during board reset to enter in to system memory boot. Do that and press the Reset button.
 
+The BOOT0 (pin 7) can be connected to pin 5 of CN7 connector or pins 2 or 4 from CN6 connector.
+
+![image](https://user-images.githubusercontent.com/58916022/217078842-869715cd-247b-44a6-850b-0f033328b592.png)
+
+![image](https://user-images.githubusercontent.com/58916022/217079136-9d0244b4-d14c-4a25-b9d0-bd82ac4a6df1.png)
+
+Download to device, select .hex file. Erase necessary pages and Jump to the usar program.
+It won't be possible to connect againt to the Flash Loader, program already change the control from bootloader to user application. 
 
 
 
