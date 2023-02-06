@@ -46,4 +46,26 @@ We need a USB-UART conversor.
 
 The [FLASHER-STM32](https://www.st.com/en/development-tools/flasher-stm32.html) is required. ST website says that the FLASHER-STM32 was replaced by STM32CubeProgrammer. So, we also downloaded the [STM32CubeProgrammer](https://www.st.com/en/development-tools/stm32cubeprog.html) for tests purpose.
 
+After install Flasher-STM32, for some reason, the application is found by searching for 'Demonstrator GUI'. Connect the USB-Serial board and open the software.
+
+![image](https://user-images.githubusercontent.com/58916022/217073929-7d84314d-773e-4547-a9cb-97ea3e2f38b5.png)
+
+To check which port the USB-Serial is connected, right click in 'This PC' -> 'Manage' and then in 'Device Manager' you will be able to see all drivers connected to the 'Ports (COM & LPT)'. COM4 is our USB-Serial and COM3 the Nucleo board.
+
+![image](https://user-images.githubusercontent.com/58916022/217075125-e73eac49-39f2-4384-a443-8c1a92bcb21f.png)
+
+Select the COMx of the USB-Serial and click 'Next'.
+
+![image](https://user-images.githubusercontent.com/58916022/217076325-f535f212-3b0a-4920-89ee-9047b7c00dbf.png)
+
+The following message will appear:
+
+![image](https://user-images.githubusercontent.com/58916022/217076524-72fa155b-98c4-4859-affa-353e0e3e8bb0.png)
+
+BOOT0 pin has to be connected to VCC during board reset to enter in to system memory boot. Do that and press the Reset buttom
+
+
+
+
+
 
