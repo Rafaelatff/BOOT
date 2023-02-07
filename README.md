@@ -1,6 +1,9 @@
 # BOOT
 This repository was create to follow the content of the course 'STM32Fx Microcontroller Custom Bootloader Development'.
 
+* Board: NUCLEO-F401RE
+* MCU: STM32F401RET6U
+
 ## Memory address
 
 * Internal flash memory - its where the code will be placed - Begins 0x0800 0000, divided in sectors and goes up to 0x0803 FFFF.
