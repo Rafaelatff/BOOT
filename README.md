@@ -73,10 +73,14 @@ The BOOT0 (pin 7) can be connected to pin 5 of CN7 connector or pins 2 or 4 from
 
 ![image](https://user-images.githubusercontent.com/58916022/217079136-9d0244b4-d14c-4a25-b9d0-bd82ac4a6df1.png)
 
+
+![image](https://user-images.githubusercontent.com/58916022/217274332-6c2afa40-01a7-45bd-baf1-94505f8600b2.png)
+
+Instructor asks to press Reset button and then to try again.
+
+The closer I get is using PC10 (TX) and PC11 (RX).
+
+![image](https://user-images.githubusercontent.com/58916022/217272369-31bd088d-f0a0-4255-8efc-0ee06398d8f3.png)
+
 Download to device, select .hex file. Erase necessary pages and Jump to the usar program.
 It won't be possible to connect againt to the Flash Loader, program already change the control from bootloader to user application. 
-
-
-
-
-
